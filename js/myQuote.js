@@ -48,6 +48,7 @@ function paintQuote() {
 
 quoteForm.addEventListener("submit", quoteSubmit);
 
+saveQuotes();
 loadQuotes();
 if (myQuotes === null) {
     myQuotes = [];
