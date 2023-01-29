@@ -59,7 +59,6 @@ function deleteLink(event) {
 
 linkForm.addEventListener("submit", addNewLink);
 
-saveLinks();
 const savedLinks = JSON.parse(localStorage.getItem(LINKS_KEY));
 
 if (savedLinks !== null) {

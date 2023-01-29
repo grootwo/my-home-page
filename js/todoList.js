@@ -50,7 +50,7 @@ todoForm.addEventListener("submit", addNewTodo);
 
 const savedTodos = JSON.parse(localStorage.getItem(TODOS_KEY));
 
-if (saveTodos !== null) {
+if (savedTodos !== null) {
     todos = savedTodos;
     todos.forEach(item => {
         showNewTodo(item);
