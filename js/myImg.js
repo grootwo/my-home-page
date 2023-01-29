@@ -64,4 +64,11 @@ myImgDeleteBtn.addEventListener("click", deleteImg);
 myImgLeftBtn.addEventListener("click", getLeftImg);
 myImgRightBtn.addEventListener("click", getRightImg);
 
-setRandomImg();
+loadImgs();
+if (myImgs === null) {
+    myImgs = [];
+    saveImgs();
+    setRandomImg();
+} else {
+    setRandomImg();
+}
