@@ -1,3 +1,3 @@
-# my-home-page
+# My Home Page
 
-# This is my home page
+This is 'My Home Page'. You can use it as your own starting page.
