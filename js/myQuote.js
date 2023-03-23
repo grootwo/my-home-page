@@ -33,6 +33,7 @@ function quoteSubmit(event) {
   infoInput.value = "";
   saveQuotes();
   paintQuote();
+  console.log("paint done");
 }
 function saveQuotes() {
   localStorage.setItem(QUOTES_KEY, JSON.stringify(myQuotes));
